@@ -3,7 +3,7 @@
 import numpy as np
 
 # Criando um array NumPy unidimensional a partir de uma lista
-array = np.array{[1, 2, 3, 4, 5]}
+array = np.array({[1, 2, 3, 4, 5]})
 print("Array:", array)
 
 # Acessando elementos do array:
@@ -66,4 +66,4 @@ for fruit in fruits:
 print("Elementos da lsita com seus ìndices:")
 my_list = [1, 2, 3, 4, 5]
 for indice, elementos in enumerate(my_list):
-    print(f"Índice {indice}: {elemento}")
+    print(f"Índice {indice}: {elementos}")
